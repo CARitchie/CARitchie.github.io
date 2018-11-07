@@ -3,7 +3,7 @@
 .responsive-scale{
     width: 100%;
     padding-bottom: 57%;
-    background-image: url("headImage.jpg");
+    background-image: url("Images/headImage.jpg");
     background-size: cover;
 }
 
@@ -44,7 +44,15 @@
     color: black;
 }
 
-/* Main content */
-.main {
-    margin-top: 30px; /* Add a top margin to avoid content overlay */
+
+body{
+  background-color: grey;
+}
+
+main{
+  background-color: white;
+}
+
+.starter{
+  margin-top: 60px;
 }
