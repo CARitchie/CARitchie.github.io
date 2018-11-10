@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto');
 
 .responsive-scale{
     width: 100%;
@@ -47,12 +47,23 @@
 
 body{
   background-color: grey;
+  padding-top: 40px;
 }
 
 main{
   background-color: white;
 }
 
-.starter{
-  margin-top: 60px;
+.details{
+  background-color: lightgrey;
+  margin-right: 10px;
+}
+
+section{
+  margin-top: 20px;
+}
+
+section h2{
+  font-size: 30px;
+  font-family:'Roboto', sans-serif;
 }
