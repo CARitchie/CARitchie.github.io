@@ -2,19 +2,34 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Projects</title>
   </head>
   <body>
-    <div class="navbar">
+    <div class="topnav" id="myTopnav">
       <a href="index.html">Home</a>
-      <a href="projects.html">Projects</a>
+      <a class="active" href="projects.html">Projects</a>
       <a href="cv.html">My CV</a>
       <a href="contact.html">Contact Me</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
     </div>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
     <main class="grid-container">
       <section class="grid-50">
         <h2>My Projects</h2>
