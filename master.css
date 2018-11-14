@@ -26,6 +26,7 @@ body{
 
 main{
   background-color: white;
+  padding-bottom: 10px;
 }
 
 .details{
@@ -111,6 +112,11 @@ footer{
 
 footer i{
   font-size: 40px;
+}
+
+footer p{
+  padding: 20px 5%;
+  text-align: center;
 }
 
 .container {
