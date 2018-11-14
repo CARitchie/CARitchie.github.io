@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto|KoHo');
 
 .responsive-scale{
     width: 100%;
@@ -22,11 +22,17 @@
 body{
   background-color: #002B49;
   padding-top: 40px;
+  font-family: 'KoHo', sans-serif;
 }
 
 main{
   background-color: white;
   padding-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
 
 .details{
@@ -40,8 +46,13 @@ section{
   margin-top: 20px;
 }
 
-section h2{
+h2{
   font-size: 30px;
+  font-family:'Roboto', sans-serif;
+}
+
+h3{
+  font-size: 25px;
   font-family:'Roboto', sans-serif;
 }
 
