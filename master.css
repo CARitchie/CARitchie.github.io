@@ -97,11 +97,7 @@ h3{
     float: right;
     display: block;
   }
-}
-
-@media screen and (max-width: 600px) {
   .topnav.responsive .icon {
-    position: absolute;
     right: 0;
     position: fixed;
     top: 0;
@@ -134,4 +130,8 @@ footer p{
   margin: 0px 10%;
   display: flex;
   justify-content: space-between;
+}
+
+#qualify{
+  background-color: lightgrey;
 }
