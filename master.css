@@ -161,3 +161,7 @@ footer p{
     bottom: 0;
   }
 }
+
+#contact li{
+  padding-bottom: 20px;
+}
