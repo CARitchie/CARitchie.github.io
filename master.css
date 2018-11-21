@@ -33,6 +33,11 @@ main{
   padding-bottom: 10px;
 }
 
+article{
+  background-color: white;
+  padding-bottom: 10px;
+}
+
 /* Allows images to adapt to screen size */
 img {
     width: 100%;
