@@ -1,0 +1,47 @@
+/* --- Footer --- */
+  footer hr{
+    margin-top: 0px;
+  }
+
+  /* Sets the footer background colour */
+  footer{
+    background-color: #333;
+  }
+
+
+  /* Controls paragraphs in the footer */
+  footer p{
+    padding: 20px 5%;
+    text-align: center;
+  }
+
+  /* Moves the footer to the bottom of the contact and cv pages */
+  @media screen and (min-width: 1025px) {
+    #bottom{
+      position: fixed;
+      bottom: 0;
+    }
+  }
+
+  /* Controls positioning of the footer icons */
+  .container {
+    margin: 0px 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* Increases size of icons in the footer */
+  footer i{
+    font-size: 40px;
+  }
+
+  /* Ensures that footer icons stay black */
+  a:link{
+    color: black;
+  }
+
+  /* Ensures that footer icons stay black */
+  a:visited{
+    color: black;
+  }
+/* --- End of Footer --- */

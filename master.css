@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto|KoHo');
 
+/* Controls header image scaling on home page, taken from lecture notes */
 .responsive-scale{
     width: 100%;
     padding-bottom: 57%;
@@ -7,6 +8,7 @@
     background-size: cover;
 }
 
+/* Control responsiveness and position of text on header image, taken from W3 Schools and modified */
 .responsive-scale h1{
   color: white;
   position: absolute;
@@ -16,41 +18,38 @@
   transform: translate(0%, -57%);
   font-size: 10vw;
   font-family: 'Alfa Slab One', cursive;
-
 }
 
-a:link{
-  color: black;
-}
-
-a:visited{
-  color: black;
-}
-
+/* Gives the body a background colour and padding */
 body{
   background-color: #002B49;
   padding-top: 40px;
   font-family: 'KoHo', sans-serif;
 }
 
+/* Sets the main content's background colour to white */
 main{
   background-color: white;
   padding-bottom: 10px;
 }
 
+/* Allows images to adapt to screen size */
 img {
     width: 100%;
     height: auto;
 }
 
+/* Gives paragraphs in a section padding */
 section p{
   padding-top: 20px;
 }
 
+/* Gives the unordered list in the details box padding */
 .details ul{
   padding-top: 20px;
 }
 
+/* Sets background colour, margins and padding for the details box */
 .details{
   background-color: lightgrey;
   margin-right: 10px;
@@ -58,16 +57,19 @@ section p{
   padding: 10px;
 }
 
+/* Gives sections a margin */
 section{
   margin-top: 20px;
 }
 
+/* Sets the font, size and padding for h2 */
 h2{
   font-size: 30px;
   font-family:'Roboto', sans-serif;
   padding-top: 20px;
 }
 
+/* Sets the font, size and padding for h3 */
 h3{
   font-size: 23px;
   font-family:'Roboto', sans-serif;
@@ -75,94 +77,13 @@ h3{
   padding-bottom: 10px;
 }
 
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
-  font-family:'Roboto', sans-serif;
-}
-
-.topnav a {
-  float: left;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.topnav a:hover:not(.active) {
-  background-color: #fff ;
-  color: black;
-}
-
-.active {
-  border-bottom: 5px;
-  border-color:white;
-  border-style:solid;
-}
-
-.topnav .icon {
-  display: none;
-}
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(.active) {display: none;}
-  .details {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-  .topnav.responsive .icon {
-    right: 0;
-    position: fixed;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-footer hr{
-  margin-top: 0px;
-}
-
-footer{
-  background-color: #333;
-}
-
-footer i{
-  font-size: 40px;
-}
-
-footer p{
-  padding: 20px 5%;
-  text-align: center;
-}
-
-.container {
-  margin: 0px 10%;
-  display: flex;
-  justify-content: space-between;
-}
-
+/* Sets the background of my qualifications to grey */
 #qualify{
   background-color: lightgrey;
   padding-bottom: 15px;
 }
 
-@media screen and (min-width: 1025px) {
-  #bottom{
-    position: fixed;
-    bottom: 0;
-  }
-}
-
+/* Adds spacing between list items on the contact page */
 #contact li{
   padding-bottom: 20px;
 }

@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/unsemantic/1.2.3/unsemantic-grid-responsive-tablet.css">
     <link rel="stylesheet" href="master.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/nav.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <title>Root16</title>
     <link rel="shortcut icon" type="image/x-icon" href="Images/icon.png" />
@@ -13,6 +15,7 @@
 
   <body>
 
+    <!-- Navigation bar, taken from W3 Schools with some modification -->
     <nav class="topnav" id="myTopnav">
       <a href="index.html">Home</a>
       <a class="active" href="projects.html">Projects</a>
@@ -23,6 +26,7 @@
       </a>
     </nav>
 
+    <!-- A bit more information about my Root 16 project -->
     <main class="grid-container">
       <section class="grid-40">
         <img src="Images/root16.png"  alt="Root 16 game board">
@@ -34,6 +38,7 @@
       </section>
     </main>
 
+    <!-- Additional images for Root 16 -->
     <main class="grid-container">
       <section class="grid-50">
         <img src="Images/leaderBoard.png" alt="Root 16 leaderboard">
@@ -43,6 +48,7 @@
       </section>
     </main>
 
+    <!-- Footer with links to some websites -->
     <footer>
       <hr>
       <div class="container">
@@ -54,16 +60,8 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </footer>
 
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-    </script>
+    <!-- Link to javascript for navigation bar -->
+    <script type="text/javascript" src="nav.js"></script>
 
   </body>
 </html>
