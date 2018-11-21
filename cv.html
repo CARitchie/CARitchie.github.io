@@ -10,8 +10,10 @@
     <title>CV</title>
     <link rel="shortcut icon" type="image/x-icon" href="Images/icon.png" />
   </head>
+
   <body>
-    <div class="topnav" id="myTopnav">
+
+    <nav class="topnav" id="myTopnav">
       <a href="index.html">Home</a>
       <a href="projects.html">Projects</a>
       <a class="active" href="cv.html">My CV</a>
@@ -19,18 +21,8 @@
       <a href="javascript:void(0);" class="icon" onclick="myFunction()">
         <i class="fa fa-bars"></i>
       </a>
-    </div>
+    </nav>
 
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myTopnav");
-        if (x.className === "topnav") {
-          x.className += " responsive";
-        } else {
-          x.className = "topnav";
-        }
-      }
-    </script>
     <main class="grid-container" id="qualify">
       <section class="grid-100">
         <h2>Qualifications</h2>
@@ -111,12 +103,24 @@
     <footer id="bottom">
       <hr>
       <div class="container">
-        <i class="fab fa-facebook-square"></i>
-        <i class="fab fa-reddit-square"></i>
-        <i class="fab fa-google-plus-square"></i>
-        <i class="fab fa-instagram"></i>
+        <a href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a>
+        <a href="https://www.reddit.com/" target="_blank"><i class="fab fa-reddit-square"></i></a>
+        <a href="https://plus.google.com/" target="_blank"><i class="fab fa-google-plus-square"></i></a>
+        <a href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
       </div>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+
   </body>
 </html>

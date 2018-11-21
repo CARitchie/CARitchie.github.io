@@ -19,6 +19,14 @@
 
 }
 
+a:link{
+  color: black;
+}
+
+a:visited{
+  color: black;
+}
+
 body{
   background-color: #002B49;
   padding-top: 40px;
@@ -35,6 +43,14 @@ img {
     height: auto;
 }
 
+section p{
+  padding-top: 20px;
+}
+
+.details ul{
+  padding-top: 20px;
+}
+
 .details{
   background-color: lightgrey;
   margin-right: 10px;
@@ -49,11 +65,14 @@ section{
 h2{
   font-size: 30px;
   font-family:'Roboto', sans-serif;
+  padding-top: 20px;
 }
 
 h3{
   font-size: 23px;
   font-family:'Roboto', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .topnav {
@@ -134,4 +153,16 @@ footer p{
 
 #qualify{
   background-color: lightgrey;
+  padding-bottom: 15px;
+}
+
+@media screen and (min-width: 1025px) {
+  #bottom{
+    position: fixed;
+    bottom: 0;
+  }
+}
+
+#contact li{
+  padding-bottom: 20px;
 }
