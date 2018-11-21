@@ -43,6 +43,14 @@ img {
     height: auto;
 }
 
+section p{
+  padding-top: 20px;
+}
+
+.details ul{
+  padding-top: 20px;
+}
+
 .details{
   background-color: lightgrey;
   margin-right: 10px;
