@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto|KoHo');
+
+/* --- Controls header image scaling on home page, taken from lecture notes --- */
+  .responsive-scale{
+      width: 100%;
+      padding-bottom: 57%;
+      background-image: url("Images/headImage.jpg");
+      background-size: cover;
+  }
+/* --- End of header image --- */
+
+/* --- Control responsiveness and position of text on header iamge, taken from W3 Schools and modified --- */
+  .responsive-scale h1{
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding-top: 70%;
+    padding-left: 8%;
+    transform: translate(0%, -57%);
+    font-size: 10vw;
+    font-family: 'Alfa Slab One', cursive;
+  }
+/* --- End of header text --- */
+
+/* Gives the body a background colour and padding */
+body{
+  background-color: #002B49;
+  padding-top: 40px;
+  font-family: 'KoHo', sans-serif;
+}
+
+/* Sets the main content's background colour to white */
+main{
+  background-color: white;
+  padding-bottom: 10px;
+}
+
+/* Allows images to adapt to screen size */
+img {
+    width: 100%;
+    height: auto;
+}
+
+section p{
+  padding-top: 20px;
+}
+
+.details ul{
+  padding-top: 20px;
+}
+
+/* Sets background colour, margins and padding for the details box */
+.details{
+  background-color: lightgrey;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+section{
+  margin-top: 20px;
+}
+
+h2{
+  font-size: 30px;
+  font-family:'Roboto', sans-serif;
+  padding-top: 20px;
+}
+
+h3{
+  font-size: 23px;
+  font-family:'Roboto', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+
+/* Sets the background of my qualifications to grey */
+#qualify{
+  background-color: lightgrey;
+  padding-bottom: 15px;
+}
+
+/* Adds spacing between list items on the contact page */
+#contact li{
+  padding-bottom: 20px;
+}
