@@ -1,26 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto|KoHo');
 
-/* --- Controls header image scaling on home page, taken from lecture notes --- */
-  .responsive-scale{
-      width: 100%;
-      padding-bottom: 57%;
-      background-image: url("Images/headImage.jpg");
-      background-size: cover;
-  }
-/* --- End of header image --- */
+/* Controls header image scaling on home page, taken from lecture notes */
+.responsive-scale{
+    width: 100%;
+    padding-bottom: 57%;
+    background-image: url("Images/headImage.jpg");
+    background-size: cover;
+}
 
-/* --- Control responsiveness and position of text on header iamge, taken from W3 Schools and modified --- */
-  .responsive-scale h1{
-    color: white;
-    position: absolute;
-    text-align: center;
-    padding-top: 70%;
-    padding-left: 8%;
-    transform: translate(0%, -57%);
-    font-size: 10vw;
-    font-family: 'Alfa Slab One', cursive;
-  }
-/* --- End of header text --- */
+/* Control responsiveness and position of text on header image, taken from W3 Schools and modified */
+.responsive-scale h1{
+  color: white;
+  position: absolute;
+  text-align: center;
+  padding-top: 70%;
+  padding-left: 8%;
+  transform: translate(0%, -57%);
+  font-size: 10vw;
+  font-family: 'Alfa Slab One', cursive;
+}
 
 /* Gives the body a background colour and padding */
 body{
@@ -41,10 +39,12 @@ img {
     height: auto;
 }
 
+/* Gives paragraphs in a section padding */
 section p{
   padding-top: 20px;
 }
 
+/* Gives the unordered list in the details box padding */
 .details ul{
   padding-top: 20px;
 }
@@ -57,24 +57,25 @@ section p{
   padding: 10px;
 }
 
+/* Gives sections a margin */
 section{
   margin-top: 20px;
 }
 
+/* Sets the font, size and padding for h2 */
 h2{
   font-size: 30px;
   font-family:'Roboto', sans-serif;
   padding-top: 20px;
 }
 
+/* Sets the font, size and padding for h3 */
 h3{
   font-size: 23px;
   font-family:'Roboto', sans-serif;
   padding-top: 10px;
   padding-bottom: 10px;
 }
-
-
 
 /* Sets the background of my qualifications to grey */
 #qualify{
